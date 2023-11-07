@@ -1,0 +1,306 @@
+.container {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #0073e6;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #ffa000;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.table th,
+.table td {
+  border: none;
+  vertical-align: middle;
+}
+
+.table-secondary {
+  background-color: #f5f5f5;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #ffa000;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.table-container {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: auto;
+}
+
+.table {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: none;
+  vertical-align: middle;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #0073e6;
+  color: #fff;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #cce0ff;
+}
+
+.btn-primary.register-btn {
+  background-color: #ff5733;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary.register-btn:hover {
+  background-color: #ff0000;
+}
+
+.btn-warning.update-btn {
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning.update-btn:hover {
+  background-color: #ffa000;
+}
+
+.btn-danger.delete-btn {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.btn-primary.edit-btn,
+.btn-primary.view-btn {
+  background-color: #0073e6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary.edit-btn:hover,
+.btn-primary.view-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Updated styles for the modal dialog */
+.modal-content {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  background-color: #0073e6;
+  color: #fff;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+  padding: 10px 20px;
+}
+
+/* Close button in the modal */
+.close {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.close:hover {
+  color: #f00;
+}
+
+.modal-body strong {
+  color: #0073e6;
+}
+
+.container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form heading */
+.text-center h3 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style form labels */
+.form-group label {
+  font-weight: bold;
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Style form input fields */
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
+
+/* Style buttons with attractive colors and text styles */
+.register-btn {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  /* Hover state */
+  &:hover {
+    background-color: #005bbf;
+  }
+}
+
+.update-btn {
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  /* Hover state */
+  &:hover {
+    background-color: #ffa000;
+  }
+}

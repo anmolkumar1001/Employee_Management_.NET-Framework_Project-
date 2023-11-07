@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+.navbar {
+  background: linear-gradient(to right, #ff5733, #ff00cc);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ff5733;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff5733;
+}
